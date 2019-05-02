@@ -142,3 +142,5 @@ percentChangeFar_man = abs(error_vals_man_far[9]-error_vals_man_far[0])/error_va
 
 print("Percentage change for c1.txt i.e. Random cluster centroid initialization",percentChangeRandom_man)
 print("Percentage change for c2.txt i.e. Far cluster centroid initialization",percentChangeFar_man)
+
+sc.stop()
